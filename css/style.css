@@ -1,0 +1,120 @@
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s,
+samp, small, strike, strong, sub, sup, tt, var, b, u, center,
+dl, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details,
+embed, figure, figcaption, footer, header, menu,
+nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+a, a:hover {
+    text-decoration: none;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.container {
+    margin: 0 auto;
+    width: 650px;
+}
+
+/*Main*/
+body{
+    background-color: #3f51b5;
+}
+main{
+
+    color: #fff;
+    font:24px Arial sans-serif;
+}
+
+h1{
+    font:24px Arial , sans-serif;
+    margin:115px 0 60px 0;
+    text-align: center;
+}
+
+#city {
+    width:570px;
+    height:50px;
+    border: 2px solid #fff;
+    background-color: #3f51b5;
+    font-size: 18px;
+    padding: 10px;
+    color: #fff;
+}
+
+#send {
+    width:77px;
+    height:50px;
+    background-color: #fff;
+    color: #3f51b5;
+    font:14px Arial , sans-serif;
+    border: none;
+    text-align: center;
+    padding:15px 0 0 0;
+    cursor: pointer;
+}
+
+#clear{
+    width:66px;
+    height:32px;
+    background-color: #fff;
+    color: #3f51b5;
+    font-size: 14px;
+    margin:95px 275px;
+    border: none;
+    cursor: pointer;
+}
